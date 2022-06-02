@@ -1,18 +1,13 @@
-// Small tablets and large smartphones (landscape view)
-$screen-sm-min: 600px;
-// Small devices
-@mixin sm {
-    @media (max-width: #{$screen-sm-min}) {
-      @content;
-    }
-  }
-
-  h1{
-    color:blue;
-    @include sm{
-        color:red;
-    }
+h1 {
+  color: blue;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    color: red;
+  }
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -20,6 +15,7 @@ body, html {
 }
 
 .hero-image {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("photographer.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
   height: 50%;
   background-position: center;
@@ -33,7 +29,8 @@ body, html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   color: white;
 }
 
@@ -52,3 +49,4 @@ body, html {
   background-color: #555;
   color: white;
 }
+/*# sourceMappingURL=input.css.map */
