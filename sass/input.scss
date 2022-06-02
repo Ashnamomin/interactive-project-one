@@ -8,9 +8,9 @@ $screen-sm-min: 600px;
   }
 
   h1{
-    color:rgb(223, 35, 69);
+    color:#c1254c;
     @include sm{
-        color:rgb(172, 172, 172);
+        color:#cccccc;
     }
 }
 body, html {
@@ -49,6 +49,6 @@ body, html {
 }
 
 .hero-text button:hover {
-  background-color: #555;
-  color: white;
+  background-color: #1f314e;
+  color: #c1254c;
 }
