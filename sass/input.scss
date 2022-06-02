@@ -8,9 +8,9 @@ $screen-sm-min: 600px;
   }
 
   h1{
-    color:blue;
+    color:rgb(223, 35, 69);
     @include sm{
-        color:red;
+        color:rgb(22, 6, 103);
     }
 }
 body, html {
@@ -20,8 +20,8 @@ body, html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-  height: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header.jpg");
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
