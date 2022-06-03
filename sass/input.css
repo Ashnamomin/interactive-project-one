@@ -49,4 +49,18 @@ body, html {
   background-color: #1f314e;
   color: #c1254c;
 }
+
+.flex-container {
+  height: 70vh;
+  width: 100vh;
+  background-color: #c1254c;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h3 {
+  color: #1f314e;
+}
 /*# sourceMappingURL=input.css.map */
