@@ -53,12 +53,35 @@ body, html {
   color: #c1254c;
 }
 .flex-container{
-  height:70vh;
-  width:100vh;
-  background-color:#c1254c;
-  flex-direction:column;
+  width:100%;
+  background-color: #c1254c;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  display:flex;
+  
+  div{
+    width:20%;
+    background-color:#ffffff;
+    margin-top:10%;
+    margin-bottom:10%;
+    color:#c1254c;
+    text-align: center;
+   hr{
+     height: 8px;
+     background-color:#1f314e;
+     border: none;
+     padding-left:20%;
+     padding-right:20%;
+   }
+  }
 
 }
   h3{
     color:#1f314e;
+    text-align: center;
+  }
+  p{
+    padding: left 3px;
+    padding-right:3px;
   }
