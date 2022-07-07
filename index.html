@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./sass/input.css" />
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Creator</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <div class="hero-image">
       <div class="hero-text">
         <h1>Ashna Momin</h1>
@@ -56,5 +64,50 @@
     <div class="flex-container">
       <h4>About Me</h4>
     </div>
+    <div class="about">
+      <!--Text Container-->
+      <div>
+        <h2>Get to Know</h2>
+        <p>
+          I have experience in Adobe Creative Suite working in layout design
+          for digital publications, print layout, branding, and web design.  
+        </p>
+      </div>
+      <!--Image-->
+      <img src="./images/about.jpg" alt="about" />
+    </div>
+    <!--Contact section-->
+    <div class="contact-container">
+      <div class="text-container">
+        <h1>Contact</h1>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 170px"
+          ></textarea>
+          <input type="submit" value="Submit"/>
+        </form>
+      </div>
+      <img src="./images/logo.jpg" alt="ashnadesignslogo">
+    </div>
+  </div>
+
   </body>
 </html>
